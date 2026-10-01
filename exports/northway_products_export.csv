@@ -1,0 +1,182 @@
+Handle,Title,Option1 Name,Option1 Value,Variant SKU,Variant Price,Variant Inventory Qty,Variant ID,Status
+economy-hand-towel-785,Economy Hand Towel 785,Pack,Piece,HTW-128-1,60.99,144,41200000100,active
+economy-hand-towel-785,,,Dozen,HTW-128-12,667.99,12,41200000137,
+economy-hand-towel-785,,,Box of 24,HTW-128-24,1220.99,6,41200000174,
+standard-bed-sheet-486,Standard Bed Sheet 486,Pack,Piece,SHT-158-1,39.99,300,41200000248,active
+standard-bed-sheet-486,,,Dozen,SHT-158-12,435.99,25,41200000285,
+standard-bed-sheet-486,,,Box of 60,SHT-158-60,1979.99,5,41200000322,
+classic-washcloth-700,Classic Washcloth 700,Pack,Piece,WCL-101-1,78.19,0,41200000396,active
+classic-washcloth-700,,,Dozen,WCL-101-12,1051.16,0,41200000433,
+classic-washcloth-700,,,Box of 6,WCL-101-6,437.77,0,41200000470,
+deluxe-laundry-bag-754,Deluxe Laundry Bag 754,Pack,Piece,LBG-112-1,96.99,24,41200000507,active
+deluxe-laundry-bag-754,,,Dozen,LBG-112-12,1036.99,2,41200000544,
+deluxe-laundry-bag-754,,,Box of 6,LBG-112-6,447.99,4,41200000581,
+spa-slippers-192,Spa Slippers 192,Pack,Piece,SLP-127-1,100.27,480,41200000655,active
+spa-slippers-192,,,Dozen,SLP-127-12,1324.22,40,41200000692,
+spa-slippers-192,,,Box of 60,SLP-127-60,5458.99,8,41200000729,
+economy-robe-497,Economy Robe 497,Pack,Piece,ROB-105-1,15.99,60,41200000803,active
+economy-robe-497,,,Dozen,ROB-105-12,171.99,5,41200000840,
+economy-robe-497,,,Box of 36,ROB-105-36,462.99,1,41200000877,
+spa-spa-amenity-293,Spa Spa Amenity 293,Pack,Piece,SPA-131-1,41.99,300,41200000951,active
+spa-spa-amenity-293,,,Dozen,SPA-131-12,419.99,25,41200000988,
+spa-spa-amenity-293,,,Box of 12,SPA-131-12,356.99,25,41200001025,
+executive-pillows-701,Executive Pillows 701,Pack,Piece,PLW-114-1,14.99,0,41200001099,active
+executive-pillows-701,,,Dozen,PLW-114-12,164.99,0,41200001136,
+executive-pillows-701,,,Box of 10,PLW-114-10,124.99,0,41200001173,
+spa-bath-towel-601,Spa Bath Towel 601,Pack,Piece,TWL-132-1,21.99,144,41200001210,active
+spa-bath-towel-601,,,Dozen,TWL-132-12,237.99,12,41200001247,
+spa-bath-towel-601,,,Box of 36,TWL-132-36,649.99,4,41200001284,
+spa-bed-skirt-341,Spa Bed Skirt 341,Pack,Piece,BSK-138-1,0.00,10,41200001321,active
+spa-bed-skirt-341,,,Dozen,BSK-138-12,0.00,21,41200001358,
+spa-bed-skirt-341,,,Box of 60,BSK-138-60,0.00,6,41200001395,
+executive-pillows-612,Executive Pillows 612,Pack,Piece,PLW-143-1,0.00,16,41200001469,active
+executive-pillows-612,,,Dozen,PLW-143-12,0.00,13,41200001506,
+executive-pillows-612,,,Box of 24,PLW-143-24,0.00,14,41200001543,
+standard-shampoo-221,Standard Shampoo 221,Pack,Piece,SHM-139-1,122.09,60,41200001617,active
+standard-shampoo-221,,,Dozen,SHM-139-12,1252.91,5,41200001654,
+standard-shampoo-221,,,Box of 24,SHM-139-24,1885.07,2,41200001691,
+resort-bath-towel-574,Resort Bath Towel 574,Pack,Piece,TWL-110-1,35.99,24,41200001728,active
+resort-bath-towel-574,,,Dozen,TWL-110-12,387.99,2,41200001765,
+resort-bath-towel-574,,,Box of 36,TWL-110-36,1059.99,0,41200001802,
+economy-soap-bar-626,Economy Soap Bar 626,Pack,Piece,SOP-150-1,85.85,480,41200001876,active
+economy-soap-bar-626,,,Dozen,SOP-150-12,943.49,40,41200001913,
+economy-soap-bar-626,,,Box of 24,SOP-150-24,1640.57,20,41200001950,
+resort-duvet-931,Resort Duvet 931,Pack,Piece,DUV-160-1,12.87,144,41200002024,active
+resort-duvet-931,,,Dozen,DUV-160-12,157.93,12,41200002061,
+resort-duvet-931,,,Box of 60,DUV-160-60,743.69,2,41200002098,
+standard-hand-towel-712,Standard Hand Towel 712,Pack,Piece,HTW-146-1,14.99,0,41200002172,active
+standard-hand-towel-712,,,Dozen,HTW-146-12,159.99,0,41200002209,
+standard-hand-towel-712,,,Box of 10,HTW-146-10,121.99,0,41200002246,
+executive-bed-sheet-600,Executive Bed Sheet 600,Pack,Piece,SHT-151-1,70.99,300,41200002320,active
+executive-bed-sheet-600,,,Dozen,SHT-151-12,772.99,25,41200002357,
+executive-bed-sheet-600,,,Box of 24,SHT-151-24,1404.99,12,41200002394,
+deluxe-robe-310,Deluxe Robe 310,Pack,Piece,ROB-147-1,0.00,36,41200002468,active
+deluxe-robe-310,,,Dozen,ROB-147-12,0.00,8,41200002505,
+deluxe-robe-310,,,Box of 12,ROB-147-12,0.00,4,41200002542,
+resort-washcloth-199,Resort Washcloth 199,Pack,Piece,WCL-140-1,22.99,480,41200002616,active
+resort-washcloth-199,,,Dozen,WCL-140-12,252.99,40,41200002653,
+resort-washcloth-199,,,Box of 10,WCL-140-10,183.99,48,41200002690,
+premium-duvet-636,Premium Duvet 636,Pack,Piece,DUV-102-1,25.99,24,41200002764,active
+premium-duvet-636,,,Dozen,DUV-102-12,280.99,2,41200002801,
+premium-duvet-636,,,Box of 60,DUV-102-60,1267.99,0,41200002838,
+spa-pillows-485,Spa Pillows 485,Pack,Piece,PLW-141-1,0.00,7,41200002912,active
+spa-pillows-485,,,Dozen,PLW-141-12,0.00,34,41200002949,
+spa-pillows-485,,,Box of 36,PLW-141-36,0.00,19,41200002986,
+classic-hand-towel-565,Classic Hand Towel 565,Pack,Piece,HTW-152-1,92.99,144,41200003060,active
+classic-hand-towel-565,,,Dozen,HTW-152-12,1023.99,12,41200003097,
+classic-hand-towel-565,,,Box of 48,HTW-152-48,3744.99,3,41200003134,
+premium-soap-bar-633,Premium Soap Bar 633,Pack,Piece,SOP-116-1,70.99,60,41200003208,active
+premium-soap-bar-633,,,Dozen,SOP-116-12,744.99,5,41200003245,
+premium-soap-bar-633,,,Box of 10,SOP-116-10,539.99,6,41200003282,
+executive-soap-bar-997,Executive Soap Bar 997,Pack,Piece,SOP-111-1,132.99,2400,41200003356,active
+executive-soap-bar-997,,,Dozen,SOP-111-12,1406.99,200,41200003393,
+executive-soap-bar-997,,,Box of 24,SOP-111-24,2446.99,100,41200003430,
+deluxe-soap-bar-579,Deluxe Soap Bar 579,Pack,Piece,SOP-134-1,42.17,0,41200003504,active
+deluxe-soap-bar-579,,,Dozen,SOP-134-12,364.31,0,41200003541,
+deluxe-soap-bar-579,,,Box of 12,SOP-134-12,381.83,0,41200003578,
+spa-wipes-332,Spa Wipes 332,Pack,Piece,WIP-122-1,115.99,0,41200003652,active
+spa-wipes-332,,,Dozen,WIP-122-12,1270.99,0,41200003689,
+spa-wipes-332,,,Box of 10,WIP-122-10,910.99,0,41200003726,
+spa-bath-towel-767,Spa Bath Towel 767,Pack,Piece,TWL-144-1,0.00,15,41200003763,active
+spa-bath-towel-767,,,Dozen,TWL-144-12,0.00,26,41200003800,
+spa-bath-towel-767,,,Box of 36,TWL-144-36,0.00,11,41200003837,
+standard-hand-towel-737,Standard Hand Towel 737,Pack,Piece,HTW-109-1,29.99,144,41200003911,active
+standard-hand-towel-737,,,Dozen,HTW-109-12,330.99,12,41200003948,
+standard-hand-towel-737,,,Box of 24,HTW-109-24,604.99,6,41200003985,
+spa-shampoo-575,Spa Shampoo 575,Pack,Piece,SHM-155-1,21.99,60,41200004059,active
+spa-shampoo-575,,,Dozen,SHM-155-12,234.99,5,41200004096,
+spa-shampoo-575,,,Box of 60,SHM-155-60,1015.99,1,41200004133,
+premium-bath-towel-389,Premium Bath Towel 389,Pack,Piece,TWL-154-1,62.15,2400,41200004170,active
+premium-bath-towel-389,,,Dozen,TWL-154-12,677.09,200,41200004207,
+premium-bath-towel-389,,,Box of 36,TWL-154-36,1767.01,66,41200004244,
+premium-personal-care-802,Premium Personal Care 802,Pack,Piece,PCR-123-1,23.99,60,41200004318,active
+premium-personal-care-802,,,Dozen,PCR-123-12,258.99,5,41200004355,
+premium-personal-care-802,,,Box of 60,PCR-123-60,1125.99,1,41200004392,
+resort-bath-towel-979,Resort Bath Towel 979,Pack,Piece,TWL-126-1,106.55,300,41200004466,active
+resort-bath-towel-979,,,Dozen,TWL-126-12,1165.49,25,41200004503,
+resort-bath-towel-979,,,Box of 24,TWL-126-24,2124.53,12,41200004540,
+standard-furniture-754,Standard Furniture 754,Pack,Piece,FUR-137-1,202.99,2400,41200004614,active
+standard-furniture-754,,,Dozen,FUR-137-12,2271.99,200,41200004651,
+standard-furniture-754,,,Box of 60,FUR-137-60,10545.99,40,41200004688,
+premium-laundry-bag-267,Premium Laundry Bag 267,Pack,Piece,LBG-153-1,36.99,480,41200004762,active
+premium-laundry-bag-267,,,Dozen,LBG-153-12,393.99,40,41200004799,
+premium-laundry-bag-267,,,Box of 12,LBG-153-12,340.99,40,41200004836,
+resort-slippers-790,Resort Slippers 790,Pack,Piece,SLP-142-1,31.99,0,41200004910,active
+resort-slippers-790,,,Dozen,SLP-142-12,342.99,0,41200004947,
+resort-slippers-790,,,Box of 10,SLP-142-10,246.99,0,41200004984,
+classic-coffee-kit-910,Classic Coffee Kit 910,Pack,Piece,CFK-113-1,99.99,2400,41200005058,active
+classic-coffee-kit-910,,,Dozen,CFK-113-12,1083.99,200,41200005095,
+classic-coffee-kit-910,,,Box of 60,CFK-113-60,4739.99,40,41200005132,
+classic-hanger-166,Classic Hanger 166,Pack,Piece,HNG-156-1,72.99,2400,41200005206,active
+classic-hanger-166,,,Dozen,HNG-156-12,794.99,200,41200005243,
+classic-hanger-166,,,Box of 48,HNG-156-48,2723.99,50,41200005280,
+premium-personal-care-849,Premium Personal Care 849,Pack,Piece,PCR-108-1,110.99,24,41200005354,active
+premium-personal-care-849,,,Dozen,PCR-108-12,1200.99,2,41200005391,
+premium-personal-care-849,,,Box of 6,PCR-108-6,522.99,4,41200005428,
+spa-duvet-473,Spa Duvet 473,Pack,Piece,DUV-130-1,17.99,1200,41200005502,active
+spa-duvet-473,,,Dozen,DUV-130-12,191.99,100,41200005539,
+spa-duvet-473,,,Box of 60,DUV-130-60,865.99,20,41200005576,
+premium-wet-wipes-388,Premium Wet Wipes 388,Pack,Piece,WIP-145-1,0.00,21,41200005650,active
+premium-wet-wipes-388,,,Dozen,WIP-145-12,0.00,40,41200005687,
+premium-wet-wipes-388,,,Box of 36,WIP-145-36,0.00,40,41200005724,
+classic-hand-towel-619,Classic Hand Towel 619,Pack,Piece,HTW-120-1,60.99,480,41200005798,active
+classic-hand-towel-619,,,Dozen,HTW-120-12,664.99,40,41200005835,
+classic-hand-towel-619,,,Box of 36,HTW-120-36,1822.99,13,41200005872,
+resort-coffee-kit-700,Resort Coffee Kit 700,Pack,Piece,CFK-159-1,113.41,2400,41200005946,active
+resort-coffee-kit-700,,,Dozen,CFK-159-12,1294.25,200,41200005983,
+resort-coffee-kit-700,,,Box of 12,CFK-159-12,1132.19,200,41200006020,
+standard-laundry-bag-511,Standard Laundry Bag 511,Pack,Piece,LBG-129-1,57.99,2400,41200006094,active
+standard-laundry-bag-511,,,Dozen,LBG-129-12,616.99,200,41200006131,
+standard-laundry-bag-511,,,Box of 6,LBG-129-6,266.99,400,41200006168,
+resort-duvet-924,Resort Duvet 924,Pack,Piece,DUV-157-1,61.99,300,41200006242,active
+resort-duvet-924,,,Dozen,DUV-157-12,675.99,25,41200006279,
+resort-duvet-924,,,Box of 48,DUV-157-48,2442.99,6,41200006316,
+standard-duvet-943,Standard Duvet 943,Pack,Piece,DUV-149-1,22.99,0,41200006390,active
+standard-duvet-943,,,Dozen,DUV-149-12,249.99,0,41200006427,
+standard-duvet-943,,,Box of 10,DUV-149-10,187.99,0,41200006464,
+economy-pillow-protector-341,Economy Pillow Protector 341,Pack,Piece,PPR-118-1,54.99,0,41200006538,active
+economy-pillow-protector-341,,,Dozen,PPR-118-12,605.99,0,41200006575,
+economy-pillow-protector-341,,,Box of 6,PPR-118-6,269.99,0,41200006612,
+premium-hand-towel-297,Premium Hand Towel 297,Pack,Piece,HTW-121-1,60.99,1200,41200006686,active
+premium-hand-towel-297,,,Dozen,HTW-121-12,665.99,100,41200006723,
+premium-hand-towel-297,,,Box of 12,HTW-121-12,608.99,100,41200006760,
+standard-hand-towel-662,Standard Hand Towel 662,Pack,Piece,HTW-104-1,61.99,1200,41200006834,active
+standard-hand-towel-662,,,Dozen,HTW-104-12,676.99,100,41200006871,
+standard-hand-towel-662,,,Box of 24,HTW-104-24,1237.99,50,41200006908,
+economy-hanger-417,Economy Hanger 417,Pack,Piece,HNG-135-1,49.67,2400,41200006982,active
+economy-hanger-417,,,Dozen,HNG-135-12,544.63,200,41200007019,
+economy-hanger-417,,,Box of 10,HNG-135-10,469.52,240,41200007056,
+executive-coffee-kit-117,Executive Coffee Kit 117,Pack,Piece,CFK-107-1,78.43,480,41200007130,active
+executive-coffee-kit-117,,,Dozen,CFK-107-12,850.11,40,41200007167,
+executive-coffee-kit-117,,,Box of 60,CFK-107-60,3892.76,8,41200007204,
+premium-pillows-244,Premium Pillows 244,Pack,Piece,PLW-124-1,74.99,2400,41200007241,active
+premium-pillows-244,,,Dozen,PLW-124-12,821.99,200,41200007278,
+premium-pillows-244,,,Box of 6,PLW-124-6,372.99,400,41200007315,
+deluxe-hand-towel-377,Deluxe Hand Towel 377,Pack,Piece,HTW-103-1,48.99,480,41200007389,active
+deluxe-hand-towel-377,,,Dozen,HTW-103-12,533.99,40,41200007426,
+deluxe-hand-towel-377,,,Box of 24,HTW-103-24,976.99,20,41200007463,
+resort-pillow-protector-826,Resort Pillow Protector 826,Pack,Piece,PPR-117-1,98.99,300,41200007500,active
+resort-pillow-protector-826,,,Dozen,PPR-117-12,1098.99,25,41200007537,
+resort-pillow-protector-826,,,Box of 24,PPR-117-24,1958.99,12,41200007574,
+economy-personal-care-678,Economy Personal Care 678,Pack,Piece,PCR-125-1,110.99,0,41200007648,active
+economy-personal-care-678,,,Dozen,PCR-125-12,1193.99,0,41200007685,
+economy-personal-care-678,,,Box of 48,PCR-125-48,4151.99,0,41200007722,
+standard-hanger-258,Standard Hanger 258,Pack,Piece,HNG-119-1,77.99,300,41200007796,active
+standard-hanger-258,,,Dozen,HNG-119-12,845.99,25,41200007833,
+standard-hanger-258,,,Box of 36,HNG-119-36,2175.99,8,41200007870,
+premium-duvet-599,Premium Duvet 599,Pack,Piece,DUV-115-1,64.99,144,41200007944,active
+premium-duvet-599,,,Dozen,DUV-115-12,705.99,12,41200007981,
+premium-duvet-599,,,Box of 10,DUV-115-10,530.99,14,41200008018,
+resort-soap-bar-623,Resort Soap Bar 623,Pack,Piece,SOP-133-1,61.99,0,41200008092,active
+resort-soap-bar-623,,,Dozen,SOP-133-12,651.99,0,41200008129,
+resort-soap-bar-623,,,Box of 36,SOP-133-36,1698.99,0,41200008166,
+classic-bath-towel-598,Classic Bath Towel 598,Pack,Piece,TWL-106-1,107.99,480,41200008240,active
+classic-bath-towel-598,,,Dozen,TWL-106-12,1188.99,40,41200008277,
+classic-bath-towel-598,,,Box of 12,TWL-106-12,1083.99,40,41200008314,
+classic-coffee-kit-249,Classic Coffee Kit 249,Pack,Piece,CFK-148-1,12.71,60,41200008388,active
+classic-coffee-kit-249,,,Dozen,CFK-148-12,114.99,5,41200008425,
+classic-coffee-kit-249,,,Box of 36,CFK-148-36,347.67,1,41200008462,
+standard-lotion-985,Standard Lotion 985,Pack,Piece,LTN-136-1,0.00,13,41200008536,active
+standard-lotion-985,,,Dozen,LTN-136-12,0.00,8,41200008573,
+standard-lotion-985,,,Box of 12,LTN-136-12,0.00,17,41200008610,
+executive-pillow-2-pack-discontinued,Executive Pillow 2-Pack (discontinued),Pack,Piece,PLW-114-1,39.99,3,41200008684,archived

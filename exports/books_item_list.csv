@@ -1,0 +1,187 @@
+Northway Hotel Supply
+Item Listing
+"As of September 29, 2026"
+
+Item ID,Item,Description,Type,Bundle Of,Bundle Qty,Qty On Hand
+1180,HTW-128,Economy Hand Towel 785,Inventory Part,,,144.00
+1187,HTW-128-12,Economy Hand Towel 785 (dozen of 12),Group,1180,12,
+1194,HTW-128-24,Economy Hand Towel 785 (box of 24),Group,1180,24,
+1201,SHT-158,Standard Bed Sheet 486,Inventory Part,,,300.00
+1208,SHT-158-12,Standard Bed Sheet 486 (dozen of 12),Group,1201,12,
+1215,SHT-158-60,Standard Bed Sheet 486 (box of 60),Group,1201,60,
+1222,WCL-101,Classic Washcloth 700,Inventory Part,,,0.00
+1229,WCL-101-12,Classic Washcloth 700 (dozen of 12),Group,1222,12,
+1236,WCL-101-6,Classic Washcloth 700 (box of 6),Group,1222,6,
+1243,LBG-112,Deluxe Laundry Bag 754,Inventory Part,,,24.00
+1250,LBG-112-12,Deluxe Laundry Bag 754 (dozen of 12),Group,1243,12,
+1257,LBG-112-6,Deluxe Laundry Bag 754 (box of 6),Group,1243,6,
+1264,SLP-127,Spa Slippers 192,Inventory Part,,,480.00
+1271,SLP-127-12,Spa Slippers 192 (dozen of 12),Group,1264,12,
+1278,SLP-127-60,Spa Slippers 192 (box of 60),Group,1264,60,
+1285,ROB-105,Economy Robe 497,Inventory Part,,,60.00
+1292,ROB-105-12,Economy Robe 497 (dozen of 12),Group,1285,12,
+1299,ROB-105-36,Economy Robe 497 (box of 36),Group,1285,36,
+1306,SPA-131,Spa Spa Amenity 293,Inventory Part,,,300.00
+1313,SPA-131-12,Spa Spa Amenity 293 (dozen of 12),Group,1306,12,
+1320,SPA-131-12,Spa Spa Amenity 293 (box of 12),Group,1306,12,
+1327,PLW-114,Executive Pillows 701,Inventory Part,,,0.00
+1334,PLW-114-12,Executive Pillows 701 (dozen of 12),Group,1327,12,
+1341,PLW-114-10,Executive Pillows 701 (box of 10),Group,1327,10,
+1348,TWL-132,Spa Bath Towel 601,Inventory Part,,,144.00
+1355,TWL-132-12,Spa Bath Towel 601 (dozen of 12),Group,1348,12,
+1362,TWL-132-36,Spa Bath Towel 601 (box of 36),Group,1348,36,
+1369,BSK-138,Spa Bed Skirt 341,Inventory Part,,,"2,400.00"
+1376,BSK-138-12,Spa Bed Skirt 341 (dozen of 12),Group,1369,12,
+1383,BSK-138-60,Spa Bed Skirt 341 (box of 60),Group,1369,60,
+1390,PLW-143,Executive Pillows 612,Inventory Part,,,300.00
+1397,PLW-143-12,Executive Pillows 612 (dozen of 12),Group,1390,12,
+1404,PLW-143-24,Executive Pillows 612 (box of 24),Group,1390,24,
+1411,NW-SHM139,Standard Shampoo 221,Inventory Part,,,60.00
+1418,NW-SHM139-12,Standard Shampoo 221 (dozen of 12),Group,1411,12,
+1425,NW-SHM139-24,Standard Shampoo 221 (box of 24),Group,1411,24,
+1432,TWL-110,Resort Bath Towel 574,Inventory Part,,,24.00
+1439,TWL-110-12,Resort Bath Towel 574 (dozen of 12),Group,1432,12,
+1446,TWL-110-36,Resort Bath Towel 574 (box of 36),Group,1432,36,
+1453,SOP-150,Economy Soap Bar 626,Inventory Part,,,480.00
+1460,SOP-150-12,Economy Soap Bar 626 (dozen of 12),Group,1453,12,
+1467,SOP-150-24,Economy Soap Bar 626 (box of 24),Group,1453,24,
+1474,DUV-160,Resort Duvet 931,Inventory Part,,,144.00
+1481,DUV-160-12,Resort Duvet 931 (dozen of 12),Group,1474,12,
+1488,DUV-160-60,Resort Duvet 931 (box of 60),Group,1474,60,
+1495,HTW-146,Standard Hand Towel 712,Inventory Part,,,0.00
+1502,HTW-146-12,Standard Hand Towel 712 (dozen of 12),Group,1495,12,
+1509,HTW-146-10,Standard Hand Towel 712 (box of 10),Group,1495,10,
+1516,SHT-151,Executive Bed Sheet 600,Inventory Part,,,300.00
+1523,SHT-151-12,Executive Bed Sheet 600 (dozen of 12),Group,1516,12,
+1530,SHT-151-24,Executive Bed Sheet 600 (box of 24),Group,1516,24,
+1537,ROB-147,Deluxe Robe 310,Inventory Part,,,0.00
+1544,ROB-147-12,Deluxe Robe 310 (dozen of 12),Group,1537,12,
+1551,ROB-147-12,Deluxe Robe 310 (box of 12),Group,1537,12,
+1558,WCL-140,Resort Washcloth 199,Inventory Part,,,480.00
+1565,WCL-140-12,Resort Washcloth 199 (dozen of 12),Group,1558,12,
+1572,WCL-140-10,Resort Washcloth 199 (box of 10),Group,1558,10,
+1579,DUV-102,Premium Duvet 636,Inventory Part,,,24.00
+1586,DUV-102-12,Premium Duvet 636 (dozen of 12),Group,1579,12,
+1593,DUV-102-60,Premium Duvet 636 (box of 60),Group,1579,60,
+1600,PLW-141,Spa Pillows 485,Inventory Part,,,0.00
+1607,PLW-141-12,Spa Pillows 485 (dozen of 12),Group,1600,12,
+1614,PLW-141-36,Spa Pillows 485 (box of 36),Group,1600,36,
+1621,NW-HTW152,Classic Hand Towel 565,Inventory Part,,,144.00
+1628,NW-HTW152-12,Classic Hand Towel 565 (dozen of 12),Group,1621,12,
+1635,NW-HTW152-48,Classic Hand Towel 565 (box of 48),Group,1621,48,
+1642,SOP-116,Premium Soap Bar 633,Inventory Part,,,60.00
+1649,SOP-116-12,Premium Soap Bar 633 (dozen of 12),Group,1642,12,
+1656,SOP-116-10,Premium Soap Bar 633 (box of 10),Group,1642,10,
+1663,SOP-111,Executive Soap Bar 997,Inventory Part,,,"2,400.00"
+1670,SOP-111-12,Executive Soap Bar 997 (dozen of 12),Group,1663,12,
+1677,SOP-111-24,Executive Soap Bar 997 (box of 24),Group,1663,24,
+1684,SOAP-OLD-7,Deluxe Soap Bar 579,Inventory Part,,,0.00
+1691,SOAP-OLD-7-12,Deluxe Soap Bar 579 (dozen of 12),Group,1684,12,
+1698,SOAP-OLD-7-12,Deluxe Soap Bar 579 (box of 12),Group,1684,12,
+1705,WIP-122,Spa Wipes 332,Inventory Part,,,0.00
+1712,WIP-122-12,Spa Wipes 332 (dozen of 12),Group,1705,12,
+1719,WIP-122-10,Spa Wipes 332 (box of 10),Group,1705,10,
+1726,TWL-144,Spa Bath Towel 767,Inventory Part,,,24.00
+1733,TWL-144-12,Spa Bath Towel 767 (dozen of 12),Group,1726,12,
+1740,TWL-144-36,Spa Bath Towel 767 (box of 36),Group,1726,36,
+1747,HTW-109,Standard Hand Towel 737,Inventory Part,,,144.00
+1754,HTW-109-12,Standard Hand Towel 737 (dozen of 12),Group,1747,12,
+1761,HTW-109-24,Standard Hand Towel 737 (box of 24),Group,1747,24,
+1768,SHM-155,Spa Shampoo 575,Inventory Part,,,60.00
+1775,SHM-155-12,Spa Shampoo 575 (dozen of 12),Group,1768,12,
+1782,SHM-155-60,Spa Shampoo 575 (box of 60),Group,1768,60,
+1789,TWL-154,Premium Bath Towel 389,Inventory Part,,,"2,400.00"
+1796,TWL-154-12,Premium Bath Towel 389 (dozen of 12),Group,1789,12,
+1803,TWL-154-36,Premium Bath Towel 389 (box of 36),Group,1789,36,
+1810,PCR-123,Premium Personal Care 802,Inventory Part,,,60.00
+1817,PCR-123-12,Premium Personal Care 802 (dozen of 12),Group,1810,12,
+1824,PCR-123-60,Premium Personal Care 802 (box of 60),Group,1810,60,
+1831,TWL-126,Resort Bath Towel 979,Inventory Part,,,300.00
+1838,TWL-126-12,Resort Bath Towel 979 (dozen of 12),Group,1831,12,
+1845,TWL-126-24,Resort Bath Towel 979 (box of 24),Group,1831,24,
+1852,NW-FUR137,Standard Furniture 754,Inventory Part,,,"2,400.00"
+1859,NW-FUR137-12,Standard Furniture 754 (dozen of 12),Group,1852,12,
+1866,NW-FUR137-60,Standard Furniture 754 (box of 60),Group,1852,60,
+1873,LBG-153,Premium Laundry Bag 267,Inventory Part,,,480.00
+1880,LBG-153-12,Premium Laundry Bag 267 (dozen of 12),Group,1873,12,
+1887,LBG-153-12,Premium Laundry Bag 267 (box of 12),Group,1873,12,
+1894,SLP-142,Resort Slippers 790,Inventory Part,,,0.00
+1901,SLP-142-12,Resort Slippers 790 (dozen of 12),Group,1894,12,
+1908,SLP-142-10,Resort Slippers 790 (box of 10),Group,1894,10,
+1915,NW-CFK113,Classic Coffee Kit 910,Inventory Part,,,"2,400.00"
+1922,NW-CFK113-12,Classic Coffee Kit 910 (dozen of 12),Group,1915,12,
+1929,NW-CFK113-60,Classic Coffee Kit 910 (box of 60),Group,1915,60,
+1936,HNG-156,Classic Hanger 166,Inventory Part,,,"2,400.00"
+1943,HNG-156-12,Classic Hanger 166 (dozen of 12),Group,1936,12,
+1950,HNG-156-48,Classic Hanger 166 (box of 48),Group,1936,48,
+1957,NW-PCR108,Premium Personal Care 849,Inventory Part,,,24.00
+1964,NW-PCR108-12,Premium Personal Care 849 (dozen of 12),Group,1957,12,
+1971,NW-PCR108-6,Premium Personal Care 849 (box of 6),Group,1957,6,
+1978,DUV-130,Spa Duvet 473,Inventory Part,,,"1,200.00"
+1985,DUV-130-12,Spa Duvet 473 (dozen of 12),Group,1978,12,
+1992,DUV-130-60,Spa Duvet 473 (box of 60),Group,1978,60,
+1999,WIP-145,Premium Wet Wipes 388,Inventory Part,,,0.00
+2006,WIP-145-12,Premium Wet Wipes 388 (dozen of 12),Group,1999,12,
+2013,WIP-145-36,Premium Wet Wipes 388 (box of 36),Group,1999,36,
+2020,NW-HTW120,Classic Hand Towel 619,Inventory Part,,,480.00
+2027,NW-HTW120-12,Classic Hand Towel 619 (dozen of 12),Group,2020,12,
+2034,NW-HTW120-36,Classic Hand Towel 619 (box of 36),Group,2020,36,
+2041,CFK-159,Resort Coffee Kit 700,Inventory Part,,,"2,400.00"
+2048,CFK-159-12,Resort Coffee Kit 700 (dozen of 12),Group,2041,12,
+2055,CFK-159-12,Resort Coffee Kit 700 (box of 12),Group,2041,12,
+2062,LBG-129,Standard Laundry Bag 511,Inventory Part,,,"2,400.00"
+2069,LBG-129-12,Standard Laundry Bag 511 (dozen of 12),Group,2062,12,
+2076,LBG-129-6,Standard Laundry Bag 511 (box of 6),Group,2062,6,
+2083,NW-DUV157,Resort Duvet 924,Inventory Part,,,300.00
+2090,NW-DUV157-12,Resort Duvet 924 (dozen of 12),Group,2083,12,
+2097,NW-DUV157-48,Resort Duvet 924 (box of 48),Group,2083,48,
+2104,DUV-149,Standard Duvet 943,Inventory Part,,,0.00
+2111,DUV-149-12,Standard Duvet 943 (dozen of 12),Group,2104,12,
+2118,DUV-149-10,Standard Duvet 943 (box of 10),Group,2104,10,
+2125,PPR-118,Economy Pillow Protector 341,Inventory Part,,,0.00
+2132,PPR-118-12,Economy Pillow Protector 341 (dozen of 12),Group,2125,12,
+2139,PPR-118-6,Economy Pillow Protector 341 (box of 6),Group,2125,6,
+2146,HTW-121,Premium Hand Towel 297,Inventory Part,,,"1,200.00"
+2153,HTW-121-12,Premium Hand Towel 297 (dozen of 12),Group,2146,12,
+2160,HTW-121-12,Premium Hand Towel 297 (box of 12),Group,2146,12,
+2167,HTW-104,Standard Hand Towel 662,Inventory Part,,,"1,200.00"
+2174,HTW-104-12,Standard Hand Towel 662 (dozen of 12),Group,2167,12,
+2181,HTW-104-24,Standard Hand Towel 662 (box of 24),Group,2167,24,
+2188,HNG-OLD-3,Economy Hanger 417,Inventory Part,,,"2,400.00"
+2195,HNG-OLD-3-12,Economy Hanger 417 (dozen of 12),Group,2188,12,
+2202,HNG-OLD-3-10,Economy Hanger 417 (box of 10),Group,2188,10,
+2209,CFK-107,Executive Coffee Kit 117,Inventory Part,,,480.00
+2216,CFK-107-12,Executive Coffee Kit 117 (dozen of 12),Group,2209,12,
+2223,CFK-107-60,Executive Coffee Kit 117 (box of 60),Group,2209,60,
+2230,NW-PLW124,Premium Pillows 244,Inventory Part,,,"2,400.00"
+2237,NW-PLW124-12,Premium Pillows 244 (dozen of 12),Group,2230,12,
+2244,NW-PLW124-6,Premium Pillows 244 (box of 6),Group,2230,6,
+2251,HTW-103,Deluxe Hand Towel 377,Inventory Part,,,480.00
+2258,HTW-103-12,Deluxe Hand Towel 377 (dozen of 12),Group,2251,12,
+2265,HTW-103-24,Deluxe Hand Towel 377 (box of 24),Group,2251,24,
+2272,PPR-117,Resort Pillow Protector 826,Inventory Part,,,300.00
+2279,PPR-117-12,Resort Pillow Protector 826 (dozen of 12),Group,2272,12,
+2286,PPR-117-24,Resort Pillow Protector 826 (box of 24),Group,2272,24,
+2293,NW-PCR125,Economy Personal Care 678,Inventory Part,,,0.00
+2300,NW-PCR125-12,Economy Personal Care 678 (dozen of 12),Group,2293,12,
+2307,NW-PCR125-48,Economy Personal Care 678 (box of 48),Group,2293,48,
+2314,NW-HNG119,Standard Hanger 258,Inventory Part,,,300.00
+2321,NW-HNG119-12,Standard Hanger 258 (dozen of 12),Group,2314,12,
+2328,NW-HNG119-36,Standard Hanger 258 (box of 36),Group,2314,36,
+2335,DUV-115,Premium Duvet 599,Inventory Part,,,144.00
+2342,DUV-115-12,Premium Duvet 599 (dozen of 12),Group,2335,12,
+2349,DUV-115-10,Premium Duvet 599 (box of 10),Group,2335,10,
+2356,SOP-133,Resort Soap Bar 623,Inventory Part,,,0.00
+2363,SOP-133-12,Resort Soap Bar 623 (dozen of 12),Group,2356,12,
+2370,SOP-133-36,Resort Soap Bar 623 (box of 36),Group,2356,36,
+2377,TWL-106,Classic Bath Towel 598,Inventory Part,,,480.00
+2384,TWL-106-12,Classic Bath Towel 598 (dozen of 12),Group,2377,12,
+2391,TWL-106-12,Classic Bath Towel 598 (box of 12),Group,2377,12,
+2398,CFK-148,Classic Coffee Kit 249,Inventory Part,,,60.00
+2405,CFK-148-12,Classic Coffee Kit 249 (dozen of 12),Group,2398,12,
+2412,CFK-148-36,Classic Coffee Kit 249 (box of 36),Group,2398,36,
+2419,LTN-OLD-2,Standard Lotion 985,Inventory Part,,,"2,400.00"
+2426,LTN-OLD-2-12,Standard Lotion 985 (dozen of 12),Group,2419,12,
+2433,LTN-OLD-2-12,Standard Lotion 985 (box of 12),Group,2419,12,
+
+TOTAL,,,,,,"37,584.00"

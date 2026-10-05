@@ -19,7 +19,7 @@ Needs Python 3.9+.
 
 ```bash
 pip install -r requirements.txt
-python app.py path/to/exports        # default: ./exports
+python app.py ./exports  
 ```
 
 Open http://localhost:5000 and pick a person. No passwords.

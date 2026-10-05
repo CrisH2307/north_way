@@ -1,0 +1,10 @@
+{% extends "base.html" %}{% block title %}Products{% endblock %}{% block body %}
+<h1>Products</h1>
+<form class="search" role="search"><input name="q" value="{{ q }}" placeholder="SKU, name or old code" aria-label="Search products" autofocus><button class="btn go">Search</button></form>
+<table class="stack"><thead><tr><th>SKU</th><th>Product</th><th class="n">In stock</th><th>Status</th></tr></thead><tbody>
+{% for p, l in rows %}<tr class="click" onclick="location='{{ url_for('product', pid=p.id) }}'">
+<td data-label="SKU"><a class="sku" href="{{ url_for('product', pid=p.id) }}">{{ p.sku }}</a></td><td data-label="Product">{{ p.name }}</td>
+<td class="n" data-label="In stock">{{ '{:,.0f}'.format(p.book.qty) if p.book and p.book.qty is not none else '' }}</td>
+<td data-label="Status"><span class="stamp {{ {'green':'ok','amber':'warn','red':'bad'}[l[0]] }}">{{ l[1] }}</span></td></tr>
+{% else %}<tr><td colspan="4" class="muted">No match for "{{ q }}".</td></tr>{% endfor %}</tbody></table>
+{% endblock %}

@@ -1,0 +1,47 @@
+{% extends "base.html" %}{% block title %}{{ t.title }}{% endblock %}{% block body %}
+<a class="back" href="{{ url_for('tasks', type=t.type) }}">{{ t.title }}</a>
+<h1>{{ t.sku or t.product }}</h1>
+{% if tick == 'still_wrong' %}<div class="note bad"><p>{{ state.by }} marked this fixed on {{ state.at[:10] }}, but the latest export still shows it.</p></div>{% endif %}
+<div class="note {{ 'ok' if tick in ('decided', 'unconfirmed') else 'warn' }}"><p>{{ t.detail }}</p></div>
+{% if t.sources %}<table class="kv"><tbody>{% for s, v in t.sources %}<tr><td>{{ s }}</td><td>{{ v }}</td></tr>{% endfor %}</tbody></table>{% endif %}
+
+{% if can_decide and decision %}
+<h2>Your decision</h2>
+<div class="note ok"><p>{{ decision_text }}</p></div>
+<form method="post" class="inline">
+ <span class="small muted">Sent to Sam, {{ decision.at }}</span>
+ <button class="btn" name="action" value="undo">Change decision</button>
+ {% if product %}<a class="btn" href="{{ url_for('product', pid=product.id) }}">View product</a>{% endif %}
+</form>
+
+{% elif can_decide %}
+<h2>Decide</h2>
+{% if error %}<div class="note bad"><p>{{ error }}</p></div>{% endif %}
+<form method="post" class="decide">
+ {% if t.type == 'set_price' %}
+ <div class="fields">{% for k, label in packs %}
+  <label>{{ label }}
+   <input name="{{ k }}" inputmode="decimal" placeholder="{{ 'optional' if k == 'box3plus' else '0.00' }}" value="{{ form.get(k, '') }}"></label>{% endfor %}
+ </div>
+ {% elif t.type == 'split_sku' %}
+ <p class="q">Which product keeps {{ t.sku }}?</p>
+ {% for n in names %}<label class="opt"><input type="radio" name="keep" value="{{ n }}" {{ 'checked' if form.get('keep') == n }}> {{ n }}</label>{% endfor %}
+ <div class="fields"><label>New SKU for the other one<input name="new_sku" placeholder="PLW-170" value="{{ form.get('new_sku', '') }}"></label></div>
+ {% elif t.type == 'remove_category' %}
+ <p class="q">Which {{ t.product }} row is current?</p>
+ {% for s, v in t.sources %}<label class="opt"><input type="radio" name="keep" value="{{ loop.index0 }}" {{ 'checked' if form.get('keep') == loop.index0|string }}> {{ v }}</label>{% endfor %}
+ {% endif %}
+ <div class="inline">
+  <button class="btn go" name="action" value="decide">Decide and send to Sam</button>
+  {% if product %}<a class="btn" href="{{ url_for('product', pid=product.id) }}">View product</a>{% endif %}
+ </div>
+</form>
+
+{% else %}
+<form method="post" class="inline">
+ {% if tick == 'unconfirmed' %}<span class="small muted">Marked fixed by {{ state.by }}, {{ state.at }}. Not confirmed until the next export.</span><button class="btn" name="status" value="open">Reopen</button>
+ {% else %}<button class="btn go" name="status" value="done">Mark as fixed</button>{% endif %}
+ {% if product %}<a class="btn" href="{{ url_for('product', pid=product.id) }}">View product</a>{% endif %}
+</form>
+{% endif %}
+{% endblock %}

@@ -1,0 +1,6 @@
+{% extends "base.html" %}{% block title %}Arrivals{% endblock %}{% block body %}
+<h1>Arrived, not in the Books</h1>
+<div class="pick">{% for t in arrivals %}
+ <div class="line"><div class="qty">{{ t.detail.split(' cases')[0] }}</div><div class="what"><b>{{ t.product }}</b><span>{{ t.sku }}, cases ({{ t.detail.split('(')[1].split(')')[0] if '(' in t.detail else '' }})</span></div><a class="btn" href="{{ url_for('product', pid=t.product_id) }}">Open</a></div>
+{% else %}<div class="empty">Nothing waiting.</div>{% endfor %}</div>
+{% endblock %}

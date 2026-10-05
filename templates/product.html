@@ -1,0 +1,31 @@
+{% extends "base.html" %}{% block title %}{{ p.sku }}{% endblock %}{% block body %}
+<a class="back" href="{{ url_for('products') }}">Products</a>
+<div class="label">
+ <div><div class="code">{{ p.sku }}</div><div class="name">{{ p.name }}</div></div>
+ {% if p.pcs_per_box %}<div class="boxsize"><b>{{ p.pcs_per_box }}</b><span>per box</span></div>{% endif %}
+</div>
+<div class="note {{ {'green':'ok','amber':'warn','red':'bad'}[v.stock[0]] }}"><p>{{ v.stock[1] }}</p></div>
+
+{% if v.price_msg %}<div class="note bad"><p>{{ v.price_msg }}</p></div>
+{% else %}
+<div class="headrow"><h2>Price</h2>
+ {% if role_key != 'marco' %}<form><select name="customer" onchange="this.form.submit()" aria-label="Customer"><option value="">Customer</option>{% for c in customers %}<option {{ 'selected' if customer and customer.name==c }}>{{ c }}</option>{% endfor %}</select><noscript><button class="btn">Apply</button></noscript>{% if customer %}<span class="disc">{{ v.why }}</span>{% endif %}</form>{% endif %}
+</div>
+{% if v.price_note %}<div class="note warn"><p>{{ v.price_note }}</p></div>{% endif %}
+{% if customer %}{% for f in customer.flags %}<div class="note warn"><p>{{ f }}</p></div>{% endfor %}{% endif %}
+<table><thead><tr><th>Pack</th><th class="n">Price</th>{% if customer %}<th class="n">{{ customer.name }}</th>{% endif %}<th class="n">Website</th></tr></thead><tbody>
+{% for k in v.packs %}<tr><td>{{ k.label }}</td><td class="n"><b>{{ '%.2f'|format(k.sheet) }}</b></td>{% if customer %}<td class="n"><b>{{ '%.2f'|format(k.final) }}</b></td>{% endif %}
+<td class="n">{% if k.northway is not none %}<span class="{{ 'off' if k.nw_off }}">{{ '%.2f'|format(k.northway) }}</span>{% endif %}</td></tr>{% endfor %}</tbody></table>
+{% endif %}
+
+{% if tasks and role_key in ('dana','sam') %}<h2>To fix</h2>
+<table><tbody>{% for t in tasks %}<tr><td><b>{{ t.title }}</b></td><td class="muted">{{ t.who }}</td><td class="n"><a class="btn" href="{{ url_for('task', tid=t.id) }}">Open</a></td></tr>{% endfor %}</tbody></table>{% endif %}
+
+<details class="sources"><summary>Sources</summary>
+<table class="kv"><tbody>
+ <tr><td>Sheet</td><td>{{ p.sku }}{% if p.old_books_sku %} (old code {{ p.old_books_sku }}){% endif %}, {{ {'priced':'priced','not_priced':'no price','blocked':'blocked, no price','duplicate_sku':'SKU shared, no price','missing':'not in the price tab'}.get(p.price_status, p.price_status) }}{% if p.old_rate %} (old {{ p.category }} rate){% endif %}</td></tr>
+ <tr><td>Books</td><td>{% if p.book %}{{ p.book.item }}, {{ '{:,.0f}'.format(p.book.qty or 0) }} pcs ({{ cat_as_of.replace('As of ','') }}){% else %}<span class="off">Not linked</span>{% endif %}</td></tr>
+ {% for w in p.web %}<tr><td>{{ w.store }}</td><td>{{ w.sku }}, stock {{ '%g'|format(w.stock) }}{% if not w.bridge %}, <span class="off">not in Bridge</span>{% endif %}</td></tr>{% endfor %}
+ {% for s in p.arrived %}<tr><td>Shipment</td><td>{{ s.cases }} cases of {{ s.pcs_per_case }}, {{ s.arrived }}</td></tr>{% endfor %}
+</tbody></table></details>
+{% endblock %}

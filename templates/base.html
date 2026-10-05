@@ -1,0 +1,21 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>{% block title %}Northway{% endblock %} | Northway hub</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Condensed:wght@500;600;700&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}"></head>
+<body>
+<header class="bar"><div class="bar-in">
+  <a class="logo" href="{{ url_for('home') }}">Northway <span>hub</span></a>
+  {% if me %}{% set ep = request.endpoint %}
+  <nav class="links" aria-label="Main">
+    {% if role_key in ('dana','sam') %}<a href="{{ url_for('home') }}" class="{{ 'on' if ep=='home' }}">Today</a>
+      <a href="{{ url_for('tasks') }}" class="{{ 'on' if ep in ('tasks','task') }}">To do</a>
+    {% elif role_key == 'marco' %}<a href="{{ url_for('home') }}" class="{{ 'on' if ep=='home' }}">Arrivals</a>{% endif %}
+    <a href="{{ url_for('products') }}" class="{{ 'on' if ep in ('products','product') }}">Products</a>
+    {% if role_key in ('dana','sam') %}<a href="{{ url_for('sources') }}" class="{{ 'on' if ep=='sources' }}">Sources</a>
+      <a href="{{ url_for('activity') }}" class="{{ 'on' if ep=='activity' }}">Activity</a>{% endif %}
+  </nav>
+  <div class="person"><b>{{ me.name }}</b><a href="{{ url_for('who') }}">Switch</a></div>{% endif %}
+</div></header>
+<main>{% block body %}{% endblock %}</main>
+</body></html>

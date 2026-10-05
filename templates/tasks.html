@@ -1,0 +1,12 @@
+{% extends "base.html" %}{% block title %}{{ title }}{% endblock %}{% block body %}
+{% if kind %}<a class="back" href="{{ url_for('tasks') }}">All tasks</a>{% endif %}
+<div class="headrow"><h1>{{ title }} <span class="count">{{ items|length }}</span></h1>
+{% if me.owns %}<a class="toggle" href="{{ url_for('tasks', type=kind) if request.args.get('all') else url_for('tasks', type=kind, all=1) }}">{{ 'Mine' if request.args.get('all') else 'Everyone' }}</a>{% endif %}</div>
+{% if not kind %}
+<div class="pick">{% for k, t, why, n in groups %}<div class="line"><div class="qty">{{ n }}</div><div class="what"><b>{{ t }}</b></div><a class="btn" href="{{ url_for('tasks', type=k, all=request.args.get('all')) }}">Start</a></div>{% else %}<div class="empty">All done.</div>{% endfor %}</div>
+{% else %}
+<table><thead><tr><th>SKU</th><th>Problem</th>{% if request.args.get('all') %}<th>For</th>{% endif %}<th></th></tr></thead><tbody>
+{% for t in items %}<tr><td><span class="sku">{{ t.sku or '' }}</span></td><td>{{ t.detail }}</td>{% if request.args.get('all') %}<td>{{ t.who }}</td>{% endif %}
+<td class="n"><a class="btn" href="{{ url_for('task', tid=t.id) }}">Open</a></td></tr>{% endfor %}</tbody></table>
+{% endif %}
+{% endblock %}

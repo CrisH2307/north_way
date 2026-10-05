@@ -1,0 +1,8 @@
+{% extends "base.html" %}{% block title %}Sources{% endblock %}{% block body %}
+<h1>Sources</h1>
+<table class="stack"><thead><tr><th>Source</th><th>As of</th><th>Read</th><th>Linked</th></tr></thead><tbody>
+{% for name, f, asof, read, linked, role in sources %}<tr><td data-label="Source"><b>{{ name }}</b></td><td data-label="As of">{{ asof }}</td><td data-label="Read">{{ read }}</td><td data-label="Linked">{{ linked }}</td></tr>{% endfor %}
+</tbody></table>
+{% if stale %}<div class="note warn" style="margin-top:20px"><p>{{ stale }} Bridge links last synced in {{ stale_years }}. Sam says they still work, so they're not on anyone's list.</p></div>{% endif %}
+<p class="small muted">Read-only: the hub never changes these files.</p>
+{% endblock %}

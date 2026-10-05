@@ -1,0 +1,4 @@
+{% extends "base.html" %}{% block title %}Activity{% endblock %}{% block body %}
+<h1>Activity</h1>
+<table><tbody>{% for a in items %}<tr><td class="muted small" style="width:170px">{{ a.at }}</td><td><b>{{ a.who }}</b> {{ a.text }}</td></tr>{% else %}<tr><td class="muted">Nothing yet.</td></tr>{% endfor %}</tbody></table>
+{% endblock %}

@@ -1,44 +1,37 @@
-# Take-home: help Dana
+# Northway hub
 
-**About 4 to 5 hours.** Please don't go much past that. Something small that works and a clear
-note beat a polished thing that took a weekend.
+One place for Northway's team, built on the six export files. It links every product
+across the sheet, the Books, both websites and Bridge, gives each one its own ID, and
+shows each person what they need:
 
-## The client
+- **Dana**: only what she can act on; she decides on the page (a price, which product keeps a shared SKU) and each decision becomes a task for Sam
+- **Sam**: a to-do list of fixes, one per product, each with the source of every number; a tick is confirmed only when a newer export no longer shows the problem
+- **Priya**: look up a product by SKU, name or old code: stock, the sheet price and the customer's discount on one screen
+- **Marco**: what has arrived but isn't in the Books yet
 
-Northway Hotel Supply sells towels, soap, slippers and bedding to hotels. Six people. Dana owns
-it. She has hired us, and she is not quite sure what for.
+It only reads the exports. The one thing it writes is its own `northway.db` (ticks, Dana's decisions, activity). Set `NORTHWAY_DB` to use another file.
 
-`inbox/` is everything we have from her and her staff, in the order it arrived. `exports/` is
-the data Sam sent us, exactly as he sent it. Nobody has cleaned any of it.
+The take-home brief from Velox is in `BRIEF.md`.
 
-## What we want
+## Run it (about 2 minutes)
 
-Build something that would actually help this business. **You decide what.**
+Needs Python 3.9+.
 
-- Any language, any stack. It must run on our laptops from your README in a few minutes, with
-  the files in `exports/` as its input. No hosted services, no accounts to sign up for.
-- It can be a screen, a script, a report, a small app. Small is fine. Something Dana or one of
-  her staff could use beats something impressive.
-- Work only from the files in `exports/`. Don't hand-edit them. If the data is wrong, that's
-  your problem to handle, not to fix by hand.
+```bash
+pip install -r requirements.txt
+python app.py path/to/exports        # default: ./exports
+```
 
-## What to send back
+Open http://localhost:5000 and pick a person. No passwords.
 
-Put it in your own repo (private is fine; add us) or send a zip. Please don't fork this repo
-or open issues or pull requests on it.
+A printable one-page report is also available: `python check.py path/to/exports`.
 
-1. **Your code**, with a README that says how to run it.
-2. **`NOTE.md`**, one page, to us:
-   - what you think Dana's business actually needs, and how you got there
-   - what you built and who it's for
-   - what you found in the data, and what you did about each thing
-   - what you assumed, and what you ignored on purpose
-   - what you'd build next, and what you'd tell Dana you're *not* building
-3. **A short walkthrough**: a 3-minute screen recording, or a few screenshots with captions,
-   showing it being used the way the person it's for would use it.
+Tests: `EXPORTS=path/to/exports python -m unittest`
 
-## Questions
+## How it's built
 
-Email them to us, replying to the message this came in. We'll answer as Dana or her staff
-would, usually within half an hour during the day. Don't wait on us; if you're blocked, write
-down your assumption in `NOTE.md` and keep going. Asking good questions counts in your favour.
+- `northway/load.py`: reads each export and handles its mess in code (title rows, TOTAL row, merged headers, `$` prices, blank variant titles, mixed dates)
+- `northway/checks.py`: the rules, using Dana's own (Books = stock, sheet = price)
+- `northway/model.py`: the catalogue: one ID per product, links to every source, tasks, customer discounts
+- `northway/store.py`: task ticks (with the export they were made against), Dana's decisions and the activity log
+- `app.py` + `templates/`: the screens

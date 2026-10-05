@@ -1,0 +1,18 @@
+{% extends "base.html" %}{% block title %}Today{% endblock %}{% block body %}
+<h1>{{ n }} waiting for you</h1>
+<div class="figures">{% for label, v in tiles %}<div class="fig"><b>{{ v }}</b><span>{{ label }}</span></div>{% endfor %}</div>
+<div class="cols">
+ <section>
+  <div class="pick">{% for kind, title, why, cnt in groups %}
+   <div class="line"><div class="qty">{{ cnt }}</div><div class="what"><b>{{ title }}</b></div><a class="btn" href="{{ url_for('tasks', type=kind) }}">Start</a></div>
+  {% else %}<div class="empty">All done.</div>{% endfor %}</div>
+ </section>
+ <aside class="aside">
+  <h2>Marked fixed</h2>
+  <p style="margin:0"><b class="big">{{ waiting }}</b></p>
+  <p class="small muted" style="margin:0">Not confirmed yet. Each one closes when the next export no longer shows the problem, and comes back if it still does.</p>
+  {% if activity %}<h2>Latest</h2>
+  <ul class="log">{% for a in activity[:5] %}<li><b>{{ a.who }}</b> {{ a.text }}<time>{{ a.at }}</time></li>{% endfor %}</ul>{% endif %}
+ </aside>
+</div>
+{% endblock %}
